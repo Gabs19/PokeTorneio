@@ -61,6 +61,9 @@ h2 {
   background-color: #f9f9f9;
 }
 
+
+
+
 @media (max-width: 320px) {
   .logo {
     width: 20px;
@@ -142,3 +145,171 @@ h2 {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 400px) {
+    .logo {
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+    }
+  
+    a {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+  
+    .win {
+      text-align: center;
+    }
+  
+    .trainers {
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-row-gap: 10px;
+    }
+  
+    .trainers .trainer-1,
+    .trainer-2 {
+      border-radius: 40px;
+    }
+  
+    h2 {
+      margin-top: 15px;
+      text-align: center;
+    }
+  
+    .trainer-1 {
+      grid-row: 1;
+      background-color: blueviolet;
+    }
+  
+    .trainer-2 {
+      grid-row: 2;
+      background-color: aqua;
+    }
+  
+    .team-pokemon {
+      margin-top: 40px;
+      margin: 0px;
+      padding: 0px;
+      width: auto;
+      align-items: center;
+      
+    }
+  
+    .team-pokemon ul {
+      list-style-position: inside;
+      list-style-type: none;
+    }
+  
+    .team-pokemon li{
+      display: inline-flex;
+      margin: 0px;
+      padding: 0px;
+    }
+  
+  
+    .pokemon {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .name-pokemon {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-size: 15px;
+      padding-top: 5px;
+      width: 45px;
+    }
+  
+    .image-pokemon {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 100px;
+      background-color: #f9f9f9;
+    }
+  }
+  
+
+@media (max-width: 500px) {
+    .logo {
+      width: 20px;
+      height: 20px;
+      border-radius: 100px;
+    }
+  
+    a {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+  
+    .win {
+      text-align: center;
+    }
+  
+    .trainers {
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-row-gap: 10px;
+    }
+  
+    .trainers .trainer-1,
+    .trainer-2 {
+      border-radius: 40px;
+    }
+  
+    h2 {
+      margin-top: 15px;
+      text-align: center;
+    }
+  
+    .trainer-1 {
+      grid-row: 1;
+      background-color: blueviolet;
+    }
+  
+    .trainer-2 {
+      grid-row: 2;
+      background-color: aqua;
+    }
+  
+    .team-pokemon {
+      margin-top: 40px;
+      margin: 0px;
+      padding: 0px;
+      width: auto;
+    }
+  
+    .team-pokemon ul {
+      list-style-position: inside;
+      list-style-type: none;
+    }
+  
+    .team-pokemon li{
+      display: inline-table;
+      margin: 10px;
+      padding: 0px;
+    }
+  
+  
+    .pokemon {
+      display: block;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .name-pokemon {
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-size: 15px;
+      padding-top: 5px;
+      width: 90px;
+    }
+  
+    .image-pokemon {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+      border-radius: 100px;
+      background-color: #f9f9f9;
+    }
+  }
+  
