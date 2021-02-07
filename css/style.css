@@ -70,6 +70,7 @@ a {
 .box {
   height: auto;
   width: 80%;
+  min-width: min-content;
   border-radius: 20px;
   background-color: #f9f9f9;
 }
@@ -92,28 +93,24 @@ a {
   margin-left: 10px;
 }
 
-
-.box-2 {
-  grid-row: 5;
-  display:block;
-  height: auto;
-  width: 80%;
-  border-radius: 20px;
-  margin-left: 220px;
-  background-color: #f9f9f9;
-}
-
 .box-pokemon-2 {
+  grid-row: 5;
   float: right;
   display: flex;
   text-align: center;
   margin-left: 10px; 
 }
-/* .name-pokemon {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-  padding-top: 0px;
-} */
+
+.box-2 {
+  height: auto;
+  /* width: 80%; */
+  min-width: min-content;
+  border-radius: 20px;
+  margin-left: 220px;
+  background-color: #f9f9f9;
+}
+
+
 
  /* --------------- .pokemon */
 
